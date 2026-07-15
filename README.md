@@ -1,4 +1,4 @@
-# 📦 Sistem Pengajuan Peminjaman Barang Milik Negara (BMN)
+# Sistem Pengajuan Peminjaman Barang Milik Negara (BMN)
 
 ## 1. Project Overview
 
@@ -150,48 +150,20 @@ Seluruh proses bisnis, struktur database, modul utama, serta antarmuka dirancang
 # 7. Struktur Repository
 
 ```
-BMN-Loan-System/
+assets-management/
 │
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-│   └── vendor/
+├── source-code/
+│   ├── dashboard_pengajuan_bmn.php
+│   ├── detail_bmn.php
+│   ├── form_pengajuan_bmn.php
+│   ├── export_pengajuan_bmn.php
+│   └── koneksi.php
 │
-├── config/
-│
-├── controllers/
-│
-├── models/
-│
-├── views/
-│
-├── uploads/
-│   ├── documents/
-│   ├── bukti-serah/
-│   └── bukti-terima/
-│
-├── database/
-│   └── database.sql
-│
-├── documentation/
-│   ├── Technical Documentation.pdf
-│   ├── Flowchart.pdf
-│   └── User Manual.pdf
-│
-├── qa/
-│   ├── Test Summary.xlsx
-│   ├── Requirement Mapping.xlsx
-│   ├── RTM.xlsx
-│   ├── Test Scenario.xlsx
-│   ├── Test Case.xlsx
-│   ├── Bug Report.xlsx
-│   ├── UAT.xlsx
-│   └── Test Metrics.xlsx
+├── technical-and-qa-documentation/
+│   ├── dokumen teknis.pdf
+│   └── qa document.xlsx
 │
 ├── screenshots/
-│
-├── index.php
 │
 └── README.md
 ```
@@ -205,30 +177,22 @@ Repository ini juga menyertakan dokumentasi Quality Assurance sebagai bagian dar
 Dokumentasi meliputi:
 
 - Test Summary
-- Functional Requirement
-- Non Functional Requirement
+- Requirement Mapping
 - Requirement Traceability Matrix (RTM)
 - Test Scenario
 - Test Case
 - Bug Report
-- User Acceptance Testing (UAT)
 - Test Metrics
 
 Dokumentasi tersebut dibuat untuk memastikan setiap kebutuhan sistem telah tervalidasi melalui proses pengujian yang terdokumentasi dengan baik.
 
 ---
 
-# 10. Catatan Pengembangan
+# 10. Catatan
 
-Beberapa hal yang diterapkan selama pengembangan sistem:
-
-- Validasi data pada sisi client dan server.
-- Validasi ketersediaan BMN berdasarkan periode peminjaman.
-- Validasi format dan ukuran dokumen upload.
-- Perhitungan otomatis lama peminjaman.
-- Penyimpanan transaksi menggunakan mekanisme yang menjaga konsistensi data.
-- Monitoring status pengajuan berdasarkan alur proses bisnis.
-- Struktur kode dibuat modular agar mudah dipelihara dan dikembangkan.
+- Repository ini merupakan bagian dari portofolio pengembangan sistem administrasi internal.
+- Source code yang dipublikasikan hanya mencakup bagian yang menjadi kontribusi pengembangan.
+- Modul autentikasi, manajemen pengguna, konfigurasi server, dan beberapa komponen internal lainnya tidak disertakan karena merupakan bagian dari sistem utama serta mempertimbangkan aspek keamanan dan kerahasiaan data.
 
 ---
 
